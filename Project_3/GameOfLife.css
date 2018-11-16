@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+    background-image: url("pikachu.jpg");
+}
+table, td {
+    margin: 0 auto;
+    border: 1px solid green;
+    border-collapse: collapse;
+}
+td{
+    height: 15px;
+    width: 15px;
+    color: white;
+}
+td.b2{
+    background-color: blue;
+}
+.button{
+    margin: 0 auto;
+    height: 25px;
+    background-color: blue;
+    border: none;
+    color: white;
+}
+.input{
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+}
+input[type="checkbox"]{
+    margin: 0px;
+}

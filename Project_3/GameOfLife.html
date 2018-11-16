@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+	    <link rel="stylesheet" type="text/css" href="GameOfLife.css">
+	</head>
+
+	<body>
+		<h1>Conway's Game Of Life</h1>
+
+		<input class = "input" type = "text" name = "size" id = "size">
+		<br>
+		<p id="textscreen">Enter desired game size</p>
+
+		<button id = 'btn' class = "button" onclick="myFunction(document.getElementById('size').value);">Start Game</button>
+		
+		<br>
+		<br>
+		
+		<p id = "error"></p>
+
+			<button id = 'step'   class = "button" onclick="oneGen();">    Step    </button>
+			<button id = 'step23' class = "button" onclick="nextGen23();">    Step 23 </button>
+			<button id = 'reset'  class = "button" onclick="resetPop();">  Reset   </button>
+			<button id = 'random' class = "button" onclick="randomPop();"> Random  </button>
+			<br><br>
+		
+		<script src="GameOfLife.js"></script>
+	</body>
+</html>

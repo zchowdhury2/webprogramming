@@ -1,0 +1,55 @@
+ #navbar ul { 
+	margin: 0; 
+	padding: 5px; 
+	list-style-type: none; 
+	text-align: center; 
+	background-color: #000; 
+	} 
+ 
+#navbar ul li {  
+	display: inline; 
+	} 
+ 
+#navbar ul li a { 
+	text-decoration: none; 
+	padding: .2em 1em; 
+	color: #fff; 
+	background-color: #000; 
+	  border-left:1px solid #fff;
+	} 
+ 
+#navbar ul li a:hover { 
+	color: #000; 
+	background-color: #fff; 
+	} 
+	
+	.bold {
+   font-weight: bold;
+} 
+
+body {
+    background-color: #FFCC00;
+	color: #000000;
+	    font-family: Georgia, Garamond, serif;
+		    background-image: url("holochrome.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+.heading { 
+color: #A4A400;
+background-color: #F0F0F0; 
+    text-align: center;
+		    font-family: Gothic, Futura, Verdana, sans-serif;
+
+}
+
+
+
+ul.fancy {
+
+    list-style-image: url('bulletpoint.jpg');
+
+
+}
+

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+<title>Part C</title>
+<script src="hw5.js"> </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+  <script src="jquery-3.3.1.js"> </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+
+  <style type="text/css">
+  
+  .gameboard{
+  
+  display: none;
+  
+  }
+  
+  img{
+  
+  height: 100px;
+  
+  width: 100px;
+  
+  }
+  
+  #win{
+  
+  display: none;
+  
+  }
+  
+  </style>
+</head>
+<body>
+        <h1><a href="../index.html">Back to homepage</a> </h1>
+    <h1><a href="hw5.html">hw5</a></h1>
+  <h1>  <a href="partA.html">part a</a> </h1>
+  <h1>  <a href="partB.html">part b</a> </h1>
+ <!-- Section to display instruction with option to input grid size -->
+
+ <div id="instructions">
+
+    Please select the size of grid:
+    
+    <select id="gridSize">
+    
+    <option value="lvl1">4X2 (8 pics)</option>
+    
+    <option value="lvl2">5X2 (10 pics)</option>
+    
+    <option value="lvl3">4X3 (12 pics)</option>
+    
+    </select><br>
+    
+    Please select the level of difficulty:
+    
+    <select id="revealTime">
+    
+    <option value="8">Level 1 (8 sec reveal time)</option>
+    
+    <option value="5">Level 2 (5 sec reveal time)</option>
+    
+    <option value="3">Level 3 (3 sec reveal time)</option>
+    
+    </select><br>
+    
+    <input type="button" onclick="start()" value="Start">
+    
+    <!-- Instructions -->
+    
+    <fieldset>
+    
+    <legend>Instructions</legend>
+    
+    <ul>
+    
+    <li>Remember where the pictures are.</li>
+    
+    <li>Match duplicate pictures as fast as possible</li>
+    
+    <li>Good luck.</li>
+    
+    </ul>
+    
+    </fieldset>
+    
+    </div>
+    
+    <!-- table to display when grid size is 8 -->
+    
+    <div id="lvl1" class="gameboard">
+    
+    <table>
+    
+    <tr>
+    
+    <td id="1"><img src="1.jpg" id="1"></td>
+    
+    <td id="2"><img src="2.jpg" id="2"></td>
+    
+    <td id="3"><img src="3.jpg" id="3"></td>
+    
+    <td id="4"><img src="4.jpg" id="4"></td>
+    
+    </tr>
+    
+    <tr>
+    
+    <td id="5"><img src="5.jpg" id="5"></td>
+    
+    <td id="6"><img src="6.jpg" id="6"></td>
+    
+    <td id="7"><img src="7.jpg" id="7"></td>
+    
+    <td id="8"><img src="8.jpg" id="8"></td>
+    
+    </tr>
+    
+    </table>
+    
+    </div>
+    
+    <!-- table to display when grid size is 10 -->
+    
+    <div id="lvl2" class="gameboard">
+    
+    <table>
+    
+    <tr>
+    
+    <td id="1"><img src="1.jpg" id="1"></td>
+    
+    <td id="2"><img src="2.jpg" id="2"></td>
+    
+    <td id="3"><img src="3.jpg" id="3"></td>
+    
+    <td id="4"><img src="4.jpg" id="4"></td>
+    
+    <td id="5"><img src="5.jpg" id="5"></td>
+    
+    </tr>
+    
+    <tr>
+    
+    <td id="6"><img src="6.jpg" id="6"></td>
+    
+    <td id="7"><img src="7.jpg" id="7"></td>
+    
+    <td id="8"><img src="8.jpg" id="8"></td>
+    
+    <td id="9"><img src="9.jpg" id="9"></td>
+    
+    <td id="10"><img src="10.jpg" id="10"></td>
+    
+    </tr>
+    
+    </table>
+    
+    </div>
+    
+    <!-- table to display when grid size is 12 -->
+    
+    <div id="lvl3" class="gameboard">
+    
+    <table>
+    
+    <tr>
+    
+    <td id="1"><img src="1.jpg" id="1"></td>
+    
+    <td id="2"><img src="2.jpg" id="2"></td>
+    
+    <td id="3"><img src="3.jpg" id="3"></td>
+    
+    <td id="4"><img src="4.jpg" id="4"></td>
+    
+    </tr>
+    
+    <tr>
+    
+    <td id="5"><img src="5.jpg" id="5"></td>
+    
+    <td id="6"><img src="6.jpg" id="6"></td>
+    
+    <td id="7"><img src="7.jpg" id="7"></td>
+    
+    <td id="8"><img src="8.jpg" id="8"></td>
+    
+    </tr>
+    
+    <tr>
+    
+    <td id="9"><img src="9.jpg" id="9"></td>
+    
+    <td id="10"><img src="10.jpg" id="10"></td>
+    
+    <td id="11"><img src="11.jpg" id="11"></td>
+    
+    <td id="12"><img src="12.jpg" id="12"></td>
+    
+    </tr>
+    
+    </table>
+    
+    </div>
+    
+    <!-- Shows when the game is finished -->
+    
+    <div id="win">
+    
+    <h1>You Win!!</h1>
+    
+    </div>
+  
+<script>
+ 
+</script>
+</body>
+</html>
