@@ -27,7 +27,7 @@ if(session_id() == '' || !isset($_SESSION)){session_start();}
       <section class="top-bar-section">
       <!-- Right Nav Section -->
         <ul class="right">
-          
+        <li><a href="https://www.youtube.com/watch?v=l12lVQKOXKU&feature=youtu.be">Youtube Video</a></li>
           <li><a href="products.php">Cars/parking</a></li>
           <li><a href="cart.php">View Cart</a></li>
           <li><a href="orders.php">My Orders</a></li>
